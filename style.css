@@ -1,0 +1,142 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5a3TKn8oVW3FyBoXCRkUT-uf7FTMjxidxo4F230Nw2RSNU_TPMLPJmcmj&s=10);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#dino{
+    width: 70px;
+    height: 70px;
+}
+#colomn1{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 100px;
+    top: 330px;
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+}
+#colomn3{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 350px;
+    top: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+}
+#colomn5{
+    width: 200px;
+    height: 280px;
+    position: absolute;
+    left: 600px;
+    top: 310px;
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+}
+#colomn7{
+    width: 200px;
+    height: 350px;
+    position: absolute;
+    left: 850px;
+    top: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+}
+#colomn9{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 1100px;
+    top: 330px;
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+}
+#colomn2{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 100px;
+    bottom: 330px;
+    display: inline-block;
+}
+#colomn4{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    left: 350px;
+    bottom: 280px;
+    display: inline-block;
+}
+#colomn6{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 600px;
+    bottom: 360px;
+    display: inline-block;
+}
+#colomn8{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 850px;
+    bottom: 420px;
+    display: inline-block;
+}
+#colomn10{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 1100px;
+    bottom: 330px;
+    display: inline-block;
+}
+/*.colomns{
+    animation: slide 10s forwards infinite;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(100%);
+    }
+    99%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}*/
+#dino{
+    transform: rotate(30deg);
+    position: absolute;
+    top: 250px;
+    animation: bmove 8s forwards infinite;
+}
+@keyframes bmove{
+    0%{
+        transform: translateX(0px);
+    }
+    20%{
+        transform: translateX(250px);
+    }
+    40%{
+        transform: translateX(500px) translateY(100px);
+    }
+    60%{
+        transform: rotate(-5deg) translateX(700px);
+    }
+    80%{
+        transform: rotate(-5deg) translateX(1000px);
+    }
+    100%{
+        transform: rotate(23deg) translateX(2000px);
+    }
+
+
+}
